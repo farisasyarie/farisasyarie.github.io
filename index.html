@@ -13,6 +13,8 @@
     />
     <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
     <!-- https://getbootstrap.com/ -->
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css" />
@@ -33,23 +35,23 @@
       <div class="tm-top-container">
         <!-- Menu -->
         <nav id="tmNav" class="tm-nav">
-          <a class="tm-navbar-menu" href="#">Menu</a>
+          <a class="tm-navbar-menu" href="javascript:void(0)">Menu</a>
           <ul class="tm-nav-links">
             <li class="tm-nav-item active">
-              <a href="#" data-linkid="0" data-align="right" class="tm-nav-link">Halaman Awal</a>
+              <a href="javascript:void(0)" data-linkid="0" data-align="right" class="tm-nav-link">Home</a>
             </li>
             <li class="tm-nav-item">
-              <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">Tentang</a>
+              <a href="javascript:void(0)" data-linkid="1" data-align="right" class="tm-nav-link">Tentang</a>
             </li>
             <li class="tm-nav-item">
               <a
-                href="#"
+                href="javascript:void(0)"
                 data-linkid="2"
                 data-align="middle"
                 class="tm-nav-link">Portofolio</a>
             </li>
             <li class="tm-nav-item">
-              <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Kontak</a>
+              <a href="javascript:void(0)" data-linkid="3" data-align="left" class="tm-nav-link">Kontak</a>
             </li>
           </ul>
         </nav>
@@ -69,11 +71,8 @@
             <div class="tm-content">
               <!-- Section 0 Introduction -->
               <section class="tm-section tm-section-0">
-                
-                <h2 class="tm-section-title mb-3 font-weight-bold" style="margin-left:0px;">
-                  Perkenalan
-                </h2>
                 <div class="tm-textbox tm-bg-dark">
+                <h2 class="tm-section-title mb-3 font-weight-bold tm-text-blue" style="margin-left:0px;">Perkenalan</h2>
                   <p>
                     Selamat Datang !!! 
                   </p>
@@ -81,211 +80,225 @@
                     Perkenalkan saya Faris Asy'arie
                   </p>
                   <br/>
-                  <a href="#" id="tm_about_link" data-linkid="1" class="tm-link m-0">Lebih Banyak</a>
+                  <a href="javascript:void(0)" id="tm_about_link" data-linkid="1" class="tm-link m-0">Lebih Banyak</a>
                 </div>
               </section>
 
               <!-- Section 1 About Me -->
-              <section class="tm-section tm-section-1">
+              <section class="tm-section tm-section-1 resume">
                 <div class="tm-textbox tm-textbox-2 tm-bg-dark">
-                  <h2 class="tm-text-blue mb-12">Tentang</h2>
-<!--                   class="mb-4" -->
-                  <p >
-                    You are allowed to modify and use this HTML template for
-                    your personal or business websites.
-                  </p>
-<!--                   class="mb-4" -->
-                  <p >
-                    You are NOT allowed to re-distribute this template file on
-                    your site for any reason. Thank you.
-                  </p>
-                  <a
-                    href="#"
-                    id="tm_work_link"
-                    data-linkid="2"
-                    class="tm-link m-0"
-                    >Selanjutnya</a
-                  >
+                   <h2 class="tm-section-title mb-3 font-weight-bold tm-text-blue" style="margin-left:0px;">Tentang</h2>
+				  <!-- ======= Resume Section ======= -->
+				    <div class="container">
+				      <div class="row">
+				        <div class="col-lg-6">
+				          <h2 class="resume-title">Biodata</h2>
+				          <div class="resume-item pb-0">
+				            <h4>Faris Asy'arie</h4>
+				            <p>Hai !!! perkenalkan namaku Faris Asy'arie (Lengkapnya: Ahmad Faris Asy'arie), aku seorang <em>"freelancer"</em> dibidang penulisan kode (<em>coding</em>), penulis cerita di <em>website</em> atau blog pribadi, dan juru kamera dalam fotografi serta sedikit kemampuan dibidang videografi.</p>
+				            <p>
+				            <ul>
+				              <li>Tinggal di      : Kuala Kapuas, Kalimantan Tengah, Indonesia</li>
+				              <li>Nomor Handphone : (+62) 895-3065-0399</li>
+				            </ul>
+				            </p>
+				          </div>
+
+				          <h3 class="resume-title">Pendidikan</h3>
+				          <div class="resume-item">
+				            <h4>S-1 Ilmu Komputer</h4>
+				            <h5>2016 - 2020</h5>
+				            <p><em>Universitas Lambung Mangkurat, Fakultas Matematika &amp; Ilmu Pengetahuan Alam </em></p>
+				            <p>Jalan Ahmad Yani KM. 36, Loktabat Selatan, Banjar Baru Selatan, Loktabat Sel., Kec. Banjarbaru Selatan, Kota Banjar Baru, Kalimantan Selatan 70714</p>
+				            <p>Jurusan : <em>Data Science</em> &amp; Rekayasa Perangkat Lunak </p>
+				            <a style="text-decoration:none" href="https://ulm.ac.id" title="Website ULM" target="_blank" class="tm-text-blue">ulm.ac.id</a> | <a style="text-decoration:none" href="https://fmipa.ulm.ac.id/" title="Website FMIPA ULM" target="_blank" class="tm-text-blue">fmipa.ulm.ac.id</a> | <a style="text-decoration:none" href="https://himakom.ulm.ac.id/" title="Website Hima Ilmu Komputer" target="_blank" class="tm-text-blue">himakom.ulm.ac.id</a>
+				            
+				          </div>
+				          <div class="resume-item">
+				            <h4>Sekolah Menengah Atas (SMA)</h4>
+				            <h5>2013 - 2016</h5>
+				            <p>MAN Selat Tengah <em>(MAN Kapuas)</em><p>
+				            <p>Jl. Keruing No.48, Selat Tengah, Kec. Selat, Kabupaten Kapuas, Kalimantan Tengah 73514</p>
+				            <p>Jurusan : ILmu Pengetahuan Alam</p>
+				            <a style="text-decoration:none" href="https://mankapuas.sch.id" title="Website MAN Kapuas" target="_blank" class="tm-text-blue">mankapuas.sch.id</a>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4>Sekolah Menengah Pertama (SMP)</h4>
+				            <h5>2010 - 2013</h5>
+				            <p>MTsN Selat Kuala Kapuas <em>(MTsN 1 Kapuas)</em></p>
+				            <p>Jl. Tambun Bungai No. 49, Kuala Kapuas, Selat Tengah, Kec. Selat, Kabupaten Kapuas, Kalimantan Tengah 73514</p>
+				            <a style="text-decoration:none" href="http://www.mtsn1kapuaskalteng.sch.id/" title="Website MTsN Kapuas" target="_blank" class="tm-text-blue">mtsn1kapuaskalteng.sch.id</a>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4>Sekolah Dasar (SD)</h4>
+				            <h5>2004 - 2010</h5>
+				            <p>MIN Selat Hulu - Unit 1</p>
+				            <p>Jl. Mahakam No.32, Selat Hulu, Kec. Selat, Kabupaten Kapuas, Kalimantan Tengah 73515</p>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4>Taman Kanak-kanak (SD)</h4>
+				            <h5>2003 - 2004</h5>
+				            <p>TK Karya</p>
+				            <p>Jalan Seroja No.66, RT.017/RW.003, Selat Tengah, Kec. Selat, Kabupaten Kapuas, Kalimantan Tengah 73516</p>
+				          </div>
+
+				        </div>
+				        <div class="col-lg-6">
+				          <h3 class="resume-title">Pengalaman Profesional</h3>
+
+				          <div class="resume-item">
+				            <h4><em>Tenaga Pengajar</em></h4>
+				            <h5>2022 - Present</h5>
+				            <p><em>SMA Negeri 3 Kuala Kapuas</em></p>
+				            <p>Jl. Pemuda Km. 5,5, Selat Utara, Selat, Kapuas, Kalimantan Tengah, Selat Hulu, Kec. Selat, Kabupaten Kapuas, Kalimantan Tengah 73581</p>
+				            <p>
+				            <ul>
+				              <li>Guru Teknologi, Informasi &amp; Komunikasi (Informatika)</li>
+				            </ul>
+				            </p>
+				          </div>
+				         
+				          <div class="resume-item">
+				            <h4><em>Freelancer - Programmer &amp; Writer</em></h4>
+				            <h5>2020 - Present</h5>
+				            <p><em>Kerja dari Rumah</em></p>
+				            <p>
+				            <ul>
+				              <li><em>Programmer</em> Lepas</li>
+				              <li>Penulis Blogger</li>
+				            </ul>
+				            </p>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4><em>Junior Programmer</em></h4>
+				            <h5>2019 - 2020</h5>
+				            <p><em>UPT PTIK ULM</em></p>
+				            <p>Loktabat Sel., Kec. Banjarbaru Selatan, Kota Banjar Baru, Kalimantan Selatan 70714</p>
+				            <p>Agustus 2019 - Maret 2020</p>
+				            <p>
+				            <ul>
+				              <li>Sirenang (Sistem Informasi Perencanaan Anggaran) ULM</li>
+				              <li>Bimbingan Konseling ULM </li>
+				            </ul>
+				            </p>
+				          </div>
+
+
+				          <div class="resume-item">
+				            <h4>Magang</h4>
+				            <h5>2019</h5>
+				            <p><em>Dinas Kelautan dan Perikanan Provinsi Kalimantan Selatan</em></p>
+				            <p>Jl. Jenderal Sudirman No.9, Loktabat Utara, Kec. Banjarbaru Utara, Kota Banjar Baru, Kalimantan Selatan 70714</p>
+				            <p>Magang dimulai dari 9 September - 02 Oktober 2019</p>
+				            <p>
+				            <ul>
+				              <li>Juru Input data</li>
+				              <li>Juru Desain</li>
+				              <li>Programmer</li>
+				            </ul>
+				            </p>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4>KKN</h4>
+				            <h5>2019</h5>
+				            <p><em>Desa Cindai Alus</em></p>
+				            <p>KKN dimulai dari Mei - Juni 2019</p>
+				            <p>
+				            <ul>
+				              <li>Programmer</li>
+				            </ul>
+				            </p>
+				          </div>
+
+				          <div class="resume-item">
+				            <h4>Asisten Dosen (Praktikum)</h4>
+				            <h5>2017 - 2019</h5>
+				            <p><em>Universitas Lambung Mangkurat, Fakultas Matematika &amp; Ilmu Pengetahuan Alam, S-1 Ilmu Komputer</em></p>
+				            <p>Jalan Ahmad Yani KM. 36, Loktabat Selatan, Banjar Baru Selatan, Loktabat Sel., Kec. Banjarbaru Selatan, Kota Banjar Baru, Kalimantan Selatan 70714</p>
+				            <p>
+				            <ul>
+				              <li>Asisten Pemrograman Visual (Bahasa Pemrograman C#).</li>
+				              <li>Asisten Algoritma dan Struktur Data - Stukdat/ASD (Bahasa Pemrograman C++)</li>
+				              <li>Asisten Pemrograman Orientasi Objek - PBO (Bahasa Pemrograman Java)</li>
+				              <li>Asisten Metode Numerik (Bahasa Pemrograman C++) </li>
+				              <li>Asisten Pemrograman WEB (Bahasa Pemrograman PHP, Javascript, Database:mysql) </li>
+				            </ul>
+				            </p>
+				          </div>
+
+				        </div>
+				      </div>
+
+				    </div>
                 </div>
               </section>
 
               <!-- Section 2 Work (Gallery) -->
-              <section class="tm-section tm-section-2 mx-auto">
-                <div class="grid tm-gallery">
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/01.jpg" alt="Image 1" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/01.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/02.jpg" alt="Pretty Girl" class="" />
-                    <figcaption>
-                      <h2>
-                        Pretty Girl
-                        <span>Picture</span>
-                      </h2>
-                      <p>Vivamus feugiat, neque sed.</p>
-                      <a href="img/02.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/03.jpg" alt="Red Flowers" class="" />
-                    <figcaption>
-                      <h2>
-                        A bunch of
-                        <span>Red Flower</span>
-                      </h2>
-                      <p>Integer pellentesque nisi iaculis sapien.</p>
-                      <a href="img/03.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/04.jpg" alt="Stairs" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/04.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/05.jpg" alt="Image 5" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/05.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/06.jpg" alt="Image 6" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/06.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/07.jpg" alt="Image 7" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/07.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/08.jpg" alt="Image 8" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/08.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/09.jpg" alt="Image 9" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/09.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/10.jpg" alt="Image 10" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/10.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/11.jpg" alt="Image 11" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/11.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/12.jpg" alt="Image 12" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/12.jpg">View more</a>
-                    </figcaption>
-                  </figure>
-                </div>
+              <section class="tm-section tm-section-2 tm-section-left contact">
+             	<div class="tm-textbox tm-textbox-2 tm-bg-dark">
+			    <div class="container">
+
+			      <div class="section-title">
+			        <h2 class="tm-section-title mb-3 font-weight-bold tm-text-blue" style="margin-left:0px;">Portofolio</h2>
+			        <h6>Fotografi, Coding &amp; Tulisan</h6>
+			      </div>
+
+			      <div class="row mt-2">
+			        <div class="col-md-12 mt-4 mt-md-0 d-flex align-items-stretch">
+			          <div class="info-box" >
+			            <div class="social-links" style="margin-left: 0px">
+			              <a href="https://youpic.com/photographer/farisasyarie/" title="YouPic" class="youpic" target="_blank"><i class="bi bi-camera"></i></a>
+			              <a href="https://github.com/farisasyarie/" class="github" title="Github" target="_blank"><i class="bi bi-github"></i></a>
+			              <a href="https://www.farisasyarie.com" title="Website" target="_blank"><i class="bi bi-journals"></i></a>
+			              <a href="https://blog.farisasyarie.com" title="Blog" target="_blank"><i class="bi bi-journal"></i></a>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			      <br/>
+                  <a href="javascript:void(0)" class="tm-link m-0" title="Download CV" target="_blank"><i class="bi bi-download"></i>  Download CV</a>
+			    </div>
+              	</div>
               </section>
 
               <!-- Section 3 Contact -->
-              <section class="tm-section tm-section-3 tm-section-left">
-                <form action="" class="tm-contact-form" method="post">
-                  <div class="form-group mb-4">
-                    <input
-                      type="text"
-                      id="contact_name"
-                      name="contact_name"
-                      class="form-control"
-                      placeholder="Name"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-4">
-                    <input
-                      type="email"
-                      id="contact_email"
-                      name="contact_email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-4">
-                    <textarea
-                      rows="4"
-                      id="contact_message"
-                      name="contact_message"
-                      class="form-control"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="form-group mb-0">
-                    <button type="submit" class="btn tm-send-btn tm-fl-right">
-                      Send
-                    </button>
-                  </div>
-                </form>
+              <section class="tm-section tm-section-3 tm-section-left contact">
+              	<div class="tm-textbox tm-textbox-2 tm-bg-dark">
+			    <div class="container">
+
+			      <div class="section-title">
+			        <h2 class="tm-section-title mb-3 font-weight-bold tm-text-blue" style="margin-left:0px;">Kontak</h2>
+			      </div>
+
+			      <div class="row mt-2">
+			        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+			          <div class="info-box">
+			            <i class="bx bx-share-alt"></i>
+			            <h3>Media Sosial</h3>
+			            <div class="social-links">
+			              <a href="https://twitter.com/Farisasyarie" title="Twitter" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+			              <a href="https://facebook.com/Farisasyarie" title="Facebook" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+			              <a href="https://www.instagram.com/farisasyarie" title="Instagram" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+			              <a href="https://www.linkedin.com/in/farisasyarie" title="LinkedIn" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+			            </div>
+			          </div>
+			        </div>
+
+			        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+			          <div class="info-box">
+			            <i class="bx bx-envelope"></i>
+			            <h3>Email</h3>
+			            <p>farisasyarie@gmail.com</p>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+              	</div>
               </section>
             </div>
           </div>
