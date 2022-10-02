@@ -287,13 +287,32 @@
           </div>
         </div>
       </div>
+      
+        footer {
+            /*
+                Property utama agar Footer tetap berada dibawah.
+            */
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
 
-      <div class="tm-bottom-container">
+            /*
+                Property tambahan agar text di dalam Footer berada di tengah.
+            */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid red;
+            background-color: cadetblue;
+        }
+      
+      <!-- div class="tm-bottom-container"-->
         <!-- Footer -->
         <footer>
           Copyright &copy; 2022 Faris Asy'arie
         </footer>
-      </div>
+      <!-- /div -->
     </div>
 
     <script src="js/jquery-1.11.0.min.js"></script>
