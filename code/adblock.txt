@@ -1,0 +1,8 @@
+<!-- Kill AdBlock -->
+    <link href='https://farisasyarie.github.io/code/KillAdBlock.css' rel='stylesheet'/>
+    <script>
+    var titleAd = &#39;Adblock Detected&#39;;
+    var notifAd = &#39;Please Support farisasyarie.com with disable your browser <u>AD-Block</u> to continue reading or register this blog into whitelist.<br/><b>Thank You</b>&#39;;
+    </script>
+    <script src='farisasyarie.github.io/code/KillAdBlock.js'/>
+    <!-- Kill AdBlock -->
